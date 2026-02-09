@@ -7,88 +7,62 @@
 </head>
 <body>
 
-<!-- HEADER -->
-<header id="header">
-    <h1>BÁO TƯỜNG ĐIỆN TỬ</h1>
-    <p>Lớp 12C – Chủ đề: Tuổi học trò</p>
+<!-- ===== HEADER ===== -->
+<header class="header">
+    <!-- 🔴 LOGO (đổi ảnh tại src) -->
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_school.png" alt="Logo">
+        <span>BÁO TƯỜNG 12C</span> <!-- 🔴 ĐỔI CHỮ LOGO Ở ĐÂY -->
+    </div>
+
+    <h1>BÁO TƯỜNG ĐIỆN TỬ</h1> <!-- 🔴 ĐỔI TIÊU ĐỀ -->
+    <p>Lớp 12C – Chủ đề: Tuổi học trò</p> <!-- 🔴 ĐỔI PHỤ ĐỀ -->
 </header>
 
-<!-- NỘI DUNG -->
-<main id="content">
+<!-- ===== NỘI DUNG ===== -->
+<main class="container">
 
-    <section class="gioithieu">
+    <!-- GIỚI THIỆU -->
+    <section>
         <h2>🌱 Bài giới thiệu</h2>
         <p>
-            Trang web báo tường điện tử của lớp 12C được tạo ra nhằm lưu giữ
-            những kỷ niệm đẹp của tuổi học trò – quãng thời gian hồn nhiên,
-            trong sáng và đáng nhớ nhất của mỗi chúng ta.
+            Đây là trang web báo tường điện tử của lớp 12C.
+            Nơi lưu giữ những kỷ niệm đẹp, trong sáng và đáng nhớ
+            của quãng đời học sinh.
         </p>
-        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+
+        <!-- 🔴 ĐỔI ẢNH GIỚI THIỆU -->
+        <img class="full-img"
+             src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
              alt="Tuổi học trò">
     </section>
 
-    <section class="baiviet">
+    <!-- BÀI VIẾT -->
+    <section>
         <h2>📚 Các bài viết</h2>
 
         <article>
             <h3>Kỷ niệm mái trường</h3>
             <p>
                 Mái trường là nơi gắn bó với bao kỷ niệm buồn vui,
-                là nơi chứng kiến sự trưởng thành của mỗi học sinh
-                qua từng năm tháng.
+                là nơi chứng kiến sự trưởng thành của mỗi học sinh.
             </p>
-            <p class="tacgia">✍ Tác giả: Nguyễn Văn A</p>
+            <p class="author">✍ Tác giả: Nguyễn Văn A</p>
         </article>
 
         <article>
             <h3>Thầy cô – người lái đò thầm lặng</h3>
             <p>
-                Thầy cô là những người luôn âm thầm dõi theo,
-                nâng đỡ và dìu dắt chúng em trên con đường tri thức.
+                Thầy cô là những người âm thầm hy sinh,
+                dìu dắt chúng em trên con đường tri thức.
             </p>
-            <p class="tacgia">✍ Tác giả: Trần Thị B</p>
+            <p class="author">✍ Tác giả: Trần Thị B</p>
         </article>
     </section>
 
-    <section class="gocanh">
+    <!-- GÓC ẢNH -->
+    <section>
         <h2>📸 Góc ảnh</h2>
-        <div class="anh">
-            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" alt="Lớp học">
-            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Hoạt động lớp">
-            <img src="https://images.unsplash.com/photo-1519455953755-af066f52f1a6" alt="Kỷ niệm">
-        </div>
-    </section>
-
-    <section class="gocmedia">
-        <h2>🎵 Góc âm nhạc – video</h2>
-        <p>Bài hát gợi nhớ tuổi học trò:</p>
-        <audio controls>
-            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
-        </audio>
-    </section>
-
-    <section class="binhluan">
-        <h2>💬 Góc bình luận</h2>
-        <form>
-            <label>Họ tên:</label>
-            <input type="text" placeholder="Nhập họ tên">
-
-            <label>Nội dung:</label>
-            <textarea rows="4" placeholder="Nhập cảm nghĩ của bạn"></textarea>
-
-            <button type="submit">Gửi bình luận</button>
-        </form>
-    </section>
-
-</main>
-
-<!-- FOOTER -->
-<footer id="footer">
-    <p>Nhóm thực hiện: Lớp 12C</p>
-    <p>Email liên hệ: lop12c@email.com</p>
-    <p>Cập nhật lần cuối: 2026</p>
-    <p>Nguồn tham khảo: Sách Tin học</p>
-</footer>
-
-</body>
-</html>
+        <div class="gallery">
+            <!-- 🔴 ĐỔI ẢNH TẠI src -->
+            <img
