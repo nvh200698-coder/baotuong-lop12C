@@ -3,125 +3,118 @@
 }
 
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
-    background-color: #eef2f5;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
     font-size: 18px;
-    line-height: 1.6;
 }
 
-/* HEADER */
-#header {
-    background: linear-gradient(135deg, #4CAF50, #2e8b57);
+/* ===== HEADER + BACKGROUND ===== */
+.header {
+    background-image: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b"); /* 🔴 ĐỔI ẢNH NỀN */
+    background-size: cover;
+    background-position: center;
     color: white;
-    text-align: center;
     padding: 40px 20px;
+    text-align: center;
 }
 
-#header h1 {
-    margin: 0;
-    font-size: 44px;
-    letter-spacing: 2px;
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
-#header p {
-    margin-top: 12px;
+.logo img {
+    width: 60px; /* 🔴 ĐỔI KÍCH THƯỚC LOGO */
+}
+
+.logo span {
+    font-size: 26px; /* 🔴 ĐỔI CỠ CHỮ LOGO */
+    font-weight: bold;
+}
+
+.header h1 {
+    font-size: 48px; /* 🔴 ĐỔI CỠ CHỮ TIÊU ĐỀ */
+    margin: 20px 0 10px;
+}
+
+.header p {
     font-size: 22px;
 }
 
-/* CONTENT */
-#content {
+/* ===== CONTENT ===== */
+.container {
     max-width: 1000px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-/* SECTION */
 section {
-    background-color: white;
-    margin-bottom: 35px;
+    background: white;
     padding: 30px;
+    margin-bottom: 30px;
     border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 section h2 {
     font-size: 30px;
     color: #2e8b57;
-    margin-top: 0;
-    border-left: 6px solid #4CAF50;
-    padding-left: 12px;
 }
 
-/* GIỚI THIỆU */
-.gioithieu img {
+/* ẢNH */
+.full-img {
     width: 100%;
     margin-top: 20px;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 /* BÀI VIẾT */
-.baiviet h3 {
+article h3 {
     font-size: 24px;
-    color: #333;
 }
 
-.tacgia {
+.author {
     font-style: italic;
-    color: #777;
-    font-size: 16px;
+    color: gray;
 }
 
-/* GÓC ẢNH */
-.anh {
+/* GALLERY */
+.gallery {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.anh img {
+.gallery img {
     width: 300px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* MEDIA */
-audio {
-    margin-top: 15px;
-    width: 100%;
-}
-
-/* BÌNH LUẬN */
-.binhluan input,
-.binhluan textarea {
+/* FORM */
+input, textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border-radius: 6px;
-    border: 1px solid #ccc;
     font-size: 16px;
 }
 
-.binhluan button {
-    background-color: #4CAF50;
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #2e8b57;
     color: white;
     border: none;
-    padding: 12px 25px;
     border-radius: 6px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.binhluan button:hover {
-    background-color: #3e8e41;
 }
 
 /* FOOTER */
-#footer {
-    background-color: #222;
+footer {
+    background: #222;
     color: #ccc;
     text-align: center;
-    padding: 25px;
-    font-size: 16px;
+    padding: 20px;
 }
-
